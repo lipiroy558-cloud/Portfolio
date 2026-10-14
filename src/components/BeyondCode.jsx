@@ -274,7 +274,7 @@ export default function BeyondCode() {
         /* Film Journal Grid */
         .film-journal-grid {
           display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+          grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
           gap: 2.25rem;
           margin-bottom: 4.5rem;
         }
@@ -298,7 +298,7 @@ export default function BeyondCode() {
         .film-still-wrap {
           position: relative;
           width: 100%;
-          aspect-ratio: 16 / 10;
+          aspect-ratio: 2 / 3;
           background-color: #201D1A;
           overflow: hidden;
         }
@@ -310,7 +310,7 @@ export default function BeyondCode() {
         .film-still-img {
           width: 100%;
           height: 100%;
-          object-fit: cover;
+          object-fit: contain;
           object-position: center;
           transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
         }

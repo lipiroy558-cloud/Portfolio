@@ -7,7 +7,8 @@ export const filmsData = [
     cinematographer: 'Edward Lachman',
     aspectRatio: 'Super 16mm / 1.85:1',
     paletteNote: 'Tweed browns, dusty emeralds, warm cadmium red, raindrops on car windows',
-    stillUrl: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=800&auto=format&fit=crop',
+    posterUrl: '/films/carol.jpg',
+    stillUrl: '/films/carol.jpg',
     reflection: '', // Editable placeholder ready for personal thoughts
     placeholderText: 'Add your thoughts about the cinematography, framing, or feelings this film left behind...'
   },
@@ -19,7 +20,8 @@ export const filmsData = [
     cinematographer: 'Claire Mathon',
     aspectRatio: '1.85:1 (RED Monstro 8K)',
     paletteNote: 'Windblown cliffside greens, deep Atlantic indigo, candlelight, amber bonfire glow',
-    stillUrl: 'https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?q=80&w=800&auto=format&fit=crop',
+    posterUrl: '/films/portrait.jpg',
+    stillUrl: '/films/portrait.jpg',
     reflection: '',
     placeholderText: 'Add your thoughts about the gazes, silence, or the final symphony scene...'
   },
@@ -31,7 +33,8 @@ export const filmsData = [
     cinematographer: 'Ellen Kuras',
     aspectRatio: '1.85:1 (35mm handheld)',
     paletteNote: 'Montauk winter frost, Clementine hair dye fades (blue, orange, green), practical lighting effects',
-    stillUrl: 'https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=800&auto=format&fit=crop',
+    posterUrl: '/films/eternal-sunshine.png',
+    stillUrl: '/films/eternal-sunshine.png',
     reflection: '',
     placeholderText: 'Add your thoughts about memory, practical effects, or meeting in Montauk...'
   }
