@@ -53,7 +53,7 @@ export const projects = [
       'Created to explore the intersection of environmental data and clean web interfaces. Visualizes water quality parameters, tracks historical fluctuations, and flags conservation anomalies through a responsive dashboard.',
     tags: ['JavaScript', 'React', 'Sensor Data Logic', 'REST APIs', 'CSS3'],
     links: {
-      github: 'https://github.com/lipiroy558-cloud',
+      github: 'https://github.com/lipiroy558-cloud/AquaTrace',
       live: '#',
     },
     highlights: [

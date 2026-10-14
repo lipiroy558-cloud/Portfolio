@@ -78,7 +78,7 @@ export default function Hero() {
         <div className="hero-visual-wrapper">
           {/* Top-Right Index Tag: 2024 — PORTFOLIO */}
           <div className="hero-top-meta" aria-hidden="true">
-            2024 — PORTFOLIO
+            2026 — PORTFOLIO
           </div>
 
           {/* Avatar Image Asset */}
