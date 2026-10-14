@@ -1,5 +1,9 @@
 # Lipi Roy — Personal Website & Journal
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-black?style=for-the-badge&logo=vercel)](https://portfolio-alpha-swart-fea1831x8x.vercel.app/)
+
+> 🌐 **[portfolio-alpha-swart-fea1831x8x.vercel.app](https://portfolio-alpha-swart-fea1831x8x.vercel.app/)**
+
 A personal corner of the internet exploring software, cinema, music, and the person I am becoming. Built with **React** and **Vite**, preserving the editorial publication aesthetic, cream palette, and typography from the original design.
 
 ![Editorial Design](public/avatar.png)
