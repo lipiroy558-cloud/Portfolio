@@ -37,6 +37,20 @@ export const filmsData = [
     stillUrl: '/films/eternal-sunshine.png',
     reflection: '',
     placeholderText: 'Add your thoughts about memory, practical effects, or meeting in Montauk...'
+  },
+  {
+    id: 'nana-2006',
+    title: 'Nana',
+    year: '2006',
+    director: 'Morio Asaka',
+    cinematographer: 'Manga: Ai Yazawa',
+    aspectRatio: 'TV Series · Anime',
+    type: 'Anime Series',
+    paletteNote: 'Ink blacks, smoky stage lights, soft pinks, city apartment warmth',
+    posterUrl: '/films/nana.jpg',
+    stillUrl: '/films/nana.jpg',
+    reflection: 'It was so relatable — more than I expected anything to be. It changed something in me. The way it shows two completely different people holding each other together, the way it captures growing up without making it feel like a lesson. I don\'t think I was ready for how much of myself I saw in it.',
+    placeholderText: 'Add your thoughts about the characters, the music, or what stayed with you...'
   }
 ];
 
