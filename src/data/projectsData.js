@@ -3,7 +3,7 @@ export const projects = [
     id: 'cinematch',
     title: 'Cinematch — Movie Discovery & Taste DNA',
     category: 'Creative Tech',
-    period: '2024',
+    period: '2026',
     featured: true,
     description:
       'A film recommendation platform built to help movie lovers discover stories based on their tastes, search preferences, and personal watchlists.',
@@ -24,7 +24,7 @@ export const projects = [
     id: 'genewise',
     title: 'GeneWise — Hereditary Risk Estimator',
     category: 'Engineering & Logic',
-    period: '2024',
+    period: '2026',
     featured: true,
     description:
       'A rule-based health risk assessment tool that analyses multi-generational family medical patterns to estimate hereditary disease predispositions.',
@@ -45,7 +45,7 @@ export const projects = [
     id: 'aquatrace',
     title: 'AquaTrace — Water Purity & Conservation Monitoring',
     category: 'Engineering & Logic',
-    period: '2023 - 2024',
+    period: '2025',
     featured: true,
     description:
       'An environmental tracking dashboard built to monitor water quality metrics, consumption trends, and conservation thresholds in real time.',
@@ -66,7 +66,7 @@ export const projects = [
     id: 'memegenerator',
     title: 'MemeGenerator — Lightweight Canvas Utility',
     category: 'Creative Tech',
-    period: '2023',
+    period: '2026',
     featured: false,
     description:
       'A minimalist, browser-based visual editor for composing media overlays, typography styling, and instant image generation.',

@@ -25,7 +25,7 @@ export const timelineData = [
     type: 'Milestones',
     title: 'Full Stack & Creative Engineering',
     institution: 'Independent Projects & Open Source',
-    period: '2024 — Present',
+    period: '2026 — Present',
     badge: 'Active Work',
     description:
       'Designing and developing production-grade web applications with modern frontend architectures, API integrations, and tailored user experiences.',
@@ -41,7 +41,7 @@ export const timelineData = [
     type: 'Milestones',
     title: 'Interactive Systems & Exploratory Tools',
     institution: 'Applied Labs & Utility Crafting',
-    period: '2023 — 2024',
+    period: '2025 — 2026',
     badge: 'Milestone',
     description:
       'Explored environmental data visualization, browser-native rendering, and DOM performance optimization.',
