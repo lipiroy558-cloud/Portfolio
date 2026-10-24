@@ -4,7 +4,7 @@ export const timelineData = [
     type: 'Education',
     title: 'B.Tech in Information Technology',
     institution: 'Undergraduate Engineering Program',
-    period: '2022 — Present',
+    period: '2025 — Present',
     badge: 'In Progress',
     description:
       'Focusing on software systems architecture, algorithmic problem solving, data structures, and the craft of building scalable, human-centered applications.',
@@ -55,19 +55,38 @@ export const timelineData = [
   {
     id: 'edu-senior-school',
     type: 'Education',
-    title: 'Higher Secondary Education (Science & Mathematics)',
+    title: 'Higher Secondary Education (Class XII — Science & Mathematics)',
     institution: 'Senior Secondary School',
-    period: '2020 — 2022',
+    period: '2023 — 2025',
     badge: 'Completed',
     description:
-      'Focused on analytical reasoning, advanced mathematics, physics, and introductory programming foundations.',
+      'Completed higher secondary education with a rigorous focus on Science and Mathematics, laying the mathematical and analytical groundwork for computer science engineering.',
     coursework: [
-      'Advanced Mathematics & Statistics',
-      'Physics & Analytical Problem Solving',
+      'Mathematics & Quantitative Analysis',
+      'Physics & Problem Solving',
+      'Chemistry',
       'Introductory Computer Science'
     ],
     highlights: [
-      'Established early problem-solving disciplines that paved the path for computer science engineering'
+      'Strengthened analytical reasoning and problem-solving disciplines that paved the path for engineering'
+    ]
+  },
+  {
+    id: 'edu-secondary-school',
+    type: 'Education',
+    title: 'Secondary School Education (Class X)',
+    institution: 'High School',
+    period: '2023',
+    badge: 'Completed',
+    description:
+      'Completed secondary schooling with a strong academic foundation across general sciences, mathematics, and analytical fundamentals.',
+    coursework: [
+      'Mathematics',
+      'General Science',
+      'Foundations of Information Technology'
+    ],
+    highlights: [
+      'Cultivated an early passion for technology, logical reasoning, and curious exploration'
     ]
   }
 ];
