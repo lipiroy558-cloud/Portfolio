@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Sun, Moon } from 'lucide-react';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -47,6 +47,29 @@ export default function Navbar() {
     }
   };
 
+  // Theme handling
+  const applyTheme = (theme) => {
+    document.documentElement.dataset.theme = theme;
+    localStorage.setItem('theme', theme);
+  };
+
+  const toggleTheme = () => {
+    const current = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+    applyTheme(current);
+    setTheme(current);
+  };
+
+  const [theme, setTheme] = useState(() => {
+    const saved = localStorage.getItem('theme');
+    return saved || 'light';
+  });
+
+  // Initialize theme on mount
+  useEffect(() => {
+    applyTheme(theme);
+  }, []);
+
+
   return (
     <header className={`navbar-wrapper ${isScrolled ? 'is-scrolled' : ''}`}>
       <div className="navbar-container">
@@ -86,6 +109,14 @@ export default function Navbar() {
         >
           {mobileMenuOpen ? <X size={22} /> : <Menu size={22} />}
         </button>
+        {/* Theme Toggle */}
+        <button
+          className="theme-toggle"
+          onClick={toggleTheme}
+          aria-label="Toggle dark mode"
+        >
+          {theme === 'dark' ? <Sun size={22} /> : <Moon size={22} />}
+        </button>
       </div>
 
       {/* Hairline Border underneath */}
@@ -107,6 +138,7 @@ export default function Navbar() {
               </a>
             ))}
           </nav>
+
         </div>
       )}
 
@@ -117,7 +149,7 @@ export default function Navbar() {
           left: 0;
           right: 0;
           z-index: 100;
-          background-color: rgba(250, 248, 244, 0.94);
+          background-color: var(--bg-cream);
           backdrop-filter: blur(8px);
           -webkit-backdrop-filter: blur(8px);
           transition: background-color 0.3s ease, box-shadow 0.3s ease;
@@ -203,6 +235,21 @@ export default function Navbar() {
           display: none;
           padding: 6px;
           color: var(--text-main);
+        }
+        .theme-toggle {
+          background: none;
+          border: none;
+          cursor: pointer;
+          color: var(--text-main);
+          margin-left: 1rem;
+          display: flex;
+          align-items: center;
+          position: relative;
+          z-index: 101;
+        }
+        @media (max-width: 768px) {
+          .mobile-toggle { display: block; }
+          .theme-toggle { margin-left: 0.5rem; }
         }
 
         .mobile-menu-drawer {
